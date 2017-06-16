@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.cetis108.app005.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnTemas"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Temas"
+        android:onClick="btnTemas"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        android:text="Nuevo"
+        android:onClick="btnNuevo"
+        android:textAlignment="center" />
+</LinearLayout>
